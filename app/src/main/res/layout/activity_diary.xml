@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/diary_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000">
+
+        <Button
+            android:id="@+id/btn_diary_category"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="分类"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"/>
+        <TextView
+            android:id="@+id/title_classifyID"
+            android:text="@string/my_diary"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"/>
+        <Button
+            android:id="@+id/write_diary"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:text="写日记"
+            android:background="#fff0ad4f"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/diary_list"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/diary_title"/>
+
+</RelativeLayout>

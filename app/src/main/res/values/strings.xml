@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DiyiDemo</string>
+
+    <string name="diary">日记</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">我的空间</string>
+    <string name="title_activity_diary">日记</string>
+    <string name="my_diary">我的日记</string>
+    <string name="friend_diary">好友日记</string>
+    <string name="other_diary">随便看看</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_write_diary">WriteDiaryActivity</string>
+    <string name="title_activity_diary_detail">DiaryDetailActivity</string>
+    <string name="title_activity_classify">日记分类</string>
+</resources>

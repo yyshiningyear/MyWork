@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.commonsware.cwac.richedit.test">
+
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="11" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.support.test.runner.AndroidJUnitRunner"
+                     android:targetPackage="com.commonsware.cwac.richedit.test"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for com.commonsware.cwac.richedit.test"/>
+</manifest>
